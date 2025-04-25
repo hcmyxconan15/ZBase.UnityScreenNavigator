@@ -73,7 +73,7 @@ You can play the demo scene with the following steps.
 
 1. Clone this repository.
 2. Open and play the following scene.
-    * https://github.com/Zitga-Tech/ZBase.UnityScreenNavigator/blob/master/Assets/Samples/Scenes/Demo.unity
+    * https://github.com/hcmyxconan15/ZBase.UnityScreenNavigator/blob/master/Assets/Samples/Scenes/Demo.unity
 
 Please note that some of the images used in this demo are from the following free contents.
 For more information, including copyright, please refer to the following website.
