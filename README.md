@@ -119,7 +119,7 @@ openupm add com.zbase.unityscreennavigator
 3. Enter the following to install
 
 ```
-https://github.com/Zitga-Tech/ZBase.UnityScreenNavigator.git?path=/Packages/ZBase.UnityScreenNavigator
+https://github.com/hcmyxconan15/ZBase.UnityScreenNavigator.git?path=/Packages/ZBase.UnityScreenNavigator
 ```
 
 <p align="center">
@@ -141,7 +141,7 @@ If you want to set the target version, specify it like follow.
 ```json
 {
     "dependencies": {
-        "com.zbase.unityscreennavigator": "https://github.com/Zitga-Tech/ZBase.UnityScreenNavigator.git?path=/Packages/ZBase.UnityScreenNavigator#1.0.0"
+        "com.zbase.unityscreennavigator": "https://github.com/hcmyxconan15/ZBase.UnityScreenNavigator.git?path=/Packages/ZBase.UnityScreenNavigator#1.0.0"
     }
 }
 ```
@@ -339,7 +339,7 @@ public abstract void Setup();
 public abstract void SetTime(float time);
 ```
 
-Please refer to [SimpleTransitionAnimationObject](https://github.com/Zitga-Tech/ZBase.UnityScreenNavigator/blob/master/Packages/ZBase.UnityScreenNavigator/Runtime/Core/Shared/SimpleTransitionAnimationObject.cs) for the practical implementation.
+Please refer to [SimpleTransitionAnimationObject](https://github.com/hcmyxconan15/ZBase.UnityScreenNavigator/blob/master/Packages/ZBase.UnityScreenNavigator/Runtime/Core/Shared/SimpleTransitionAnimationObject.cs) for the practical implementation.
 
 Then, instantiate this Scriptable Object, and assign it to `UnityScreenNavigatorSettings`.
 You can create `UnityScreenNavigatorSettings` from `Assets > Create > Screen Navigator Settings`.
@@ -442,7 +442,7 @@ To implement this, first create a class that derived from `TransitionAnimationOb
 Then, refer to the `PartnerRectTransform` property to get the partner screen.
 If the partner screen does not exist, `PartnerRectTransform` will be null.
 
-Please refer to [CharacterImageModalTransitionAnimation](https://github.com/Zitga-Tech/ZBase.UnityScreenNavigator/blob/master/Assets/Samples/Scripts/CharacterImageModalTransitionAnimation.cs) in demo for the practical implementation.
+Please refer to [CharacterImageModalTransitionAnimation](https://github.com/hcmyxconan15/ZBase.UnityScreenNavigator/blob/master/Assets/Samples/Scripts/CharacterImageModalTransitionAnimation.cs) in demo for the practical implementation.
 
 ### Create animation with Timeline
 You can use Timeline to create transition animation.
